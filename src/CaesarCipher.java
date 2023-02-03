@@ -1,5 +1,5 @@
 public class CaesarCipher {
-
+public static void main(String[] args){
     private static final int ALPHABET_SIZE = 32;
 
     public String cipher(String message, int offset) {
@@ -25,4 +25,5 @@ public class CaesarCipher {
         return cipher(message, ALPHABET_SIZE - (offset % ALPHABET_SIZE));
     }
 
+}
 }
